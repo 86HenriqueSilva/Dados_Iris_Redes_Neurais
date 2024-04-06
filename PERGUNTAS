@@ -1,0 +1,17 @@
+Porque a variação de 10% e 80%
+Porque o uso de k=3 e k5
+O que agrega Dmc e Mlp ?
+
+explorar diferentes algoritmos de aprendizado de máquina, como o vizinho mais próximo (KNN), DMC (Decision by Maximum Confidence), e MLP (Multilayer Perceptron), variando a porcentagem de dados de treinamento e ajustando os parâmetros em cada caso.
+
+Vamos abordar suas perguntas:
+
+    Vizinho mais próximo (KNN): O KNN é um algoritmo simples e intuitivo que classifica um ponto com base na maioria dos pontos mais próximos a ele. Variar a porcentagem de dados de treinamento de 10% a 80% permite avaliar como o desempenho do KNN é afetado pela quantidade de dados disponíveis para treinamento. Isso pode ajudar a entender se o KNN é robusto o suficiente para lidar com diferentes tamanhos de conjuntos de dados.
+
+    K vizinhos mais próximos: Ao usar o KNN, é importante escolher o número correto de vizinhos (K) para considerar na classificação. Testar com diferentes valores de K, como 3 e 5, permite avaliar como o desempenho do KNN é influenciado pela escolha do número de vizinhos. Isso pode revelar insights sobre a sensibilidade do algoritmo aos parâmetros.
+
+    DMC (Decision by Maximum Confidence): O DMC é um método de classificação que atribui uma classe a um padrão com base na confiança máxima estimada para essa classe. Variar a porcentagem de dados de treinamento permite avaliar como o desempenho do DMC é afetado pela quantidade de dados disponíveis.
+
+    MLP (Multilayer Perceptron): O MLP é uma rede neural artificial composta por múltiplas camadas de neurônios, treinada usando o algoritmo de retropropagação (Backpropagation). Definir todos os parâmetros do MLP, como número de camadas, número de neurônios em cada camada, função de ativação, taxa de aprendizado, etc., permite controlar completamente o comportamento da rede neural. Variar a porcentagem de dados de treinamento permite avaliar como o desempenho do MLP é influenciado pelo tamanho do conjunto de treinamento.
+
+ A variação da porcentagem de dados de treinamento e a escolha de diferentes parâmetros e configurações de algoritmos permitem uma análise abrangente do desempenho e da robustez desses métodos de aprendizado de máquina em diferentes cenários e conjuntos de dados.
