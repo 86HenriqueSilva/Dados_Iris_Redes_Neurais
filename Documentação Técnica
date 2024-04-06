@@ -1,0 +1,38 @@
+Documentação Técnica: Análise de Desempenho de Algoritmos de Aprendizado de Máquina no Conjunto de Dados Iris
+Introdução
+
+Este documento descreve o processo de desenvolvimento, as escolhas de arquitetura e os resultados obtidos na análise de desempenho de vários algoritmos de aprendizado de máquina utilizando o conjunto de dados Iris. O objetivo principal é comparar o desempenho de diferentes algoritmos em termos de acurácia média em relação a diferentes percentuais de dados de treinamento.
+Processo de Desenvolvimento
+
+O código foi desenvolvido em Python, utilizando bibliotecas como matplotlib, numpy, e scikit-learn. Abaixo está um resumo do processo de desenvolvimento:
+
+    Carregamento do Conjunto de Dados: O conjunto de dados Iris foi carregado usando a função load_iris() da biblioteca scikit-learn.
+
+    Definição dos Percentuais de Treinamento: Diferentes percentuais de dados de treinamento foram definidos para avaliar o impacto do tamanho do conjunto de treinamento no desempenho dos algoritmos.
+
+    Inicialização de Estruturas de Dados: Dicionários foram inicializados para armazenar os resultados de cada algoritmo.
+
+    Loop de Avaliação: Um loop foi executado para cada percentual de treinamento, onde cada algoritmo foi avaliado repetidamente para capturar a variabilidade devido à aleatoriedade na divisão dos dados de treinamento/teste.
+
+    Avaliação dos Algoritmos:
+        KNN (K-Vizinhos Mais Próximos): Três configurações diferentes de k (1, 3 e 5) foram testadas.
+        DMC (Classificação Discriminante Quadrática): Este algoritmo foi avaliado diretamente.
+        MLP (Perceptron Multicamadas): Foi utilizado um processo de busca em grade (GridSearchCV) para encontrar a melhor combinação de hiperparâmetros.
+
+    Visualização dos Resultados: Foram implementadas funções para gerar gráficos de barras e de linhas, permitindo a visualização das médias de acurácia e seus desvios padrão para cada percentual de treinamento.
+
+    Menu Interativo: Um menu interativo foi criado para permitir que o usuário escolha o tipo de gráfico a ser exibido.
+
+Escolhas de Arquitetura
+
+    Algoritmos de Aprendizado de Máquina: Foram escolhidos três algoritmos comumente usados para classificação: KNN, DMC e MLP.
+    Processo de Avaliação: Utilizou-se a validação cruzada com 5 dobras para avaliar o desempenho de cada algoritmo.
+    Tratamento de Warnings: Warnings relacionados à convergência foram suprimidos para melhorar a legibilidade da saída.
+    Menu Interativo: Implementou-se um menu interativo para facilitar a escolha do tipo de gráfico a ser exibido.
+
+Resultados Obtidos
+
+Os resultados da análise de desempenho são apresentados graficamente, mostrando a acurácia média e o desvio padrão para cada percentual de treinamento. A análise comparativa dos algoritmos permite uma compreensão mais aprofundada do seu comportamento em diferentes cenários de treinamento.
+Conclusão
+
+Este documento descreveu o processo de desenvolvimento, as escolhas de arquitetura e os resultados obtidos na análise de desempenho de algoritmos de aprendizado de máquina no conjunto de dados Iris. A visualização dos resultados fornece insights valiosos sobre o impacto do tamanho do conjunto de treinamento no desempenho dos algoritmos avaliados.

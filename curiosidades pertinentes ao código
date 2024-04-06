@@ -1,0 +1,18 @@
+Vamos abordar algumas curiosidades pertinentes ao código fornecido, destacando aspectos interessantes do processo de desenvolvimento e da análise de desempenho dos algoritmos de aprendizado de máquina:
+
+    Supressão de Warnings de Convergência:
+        Uma decisão pragmática foi tomada para suprimir os warnings relacionados à convergência durante o treinamento dos modelos MLP (Perceptron Multicamadas). Isso pode ser interpretado como uma estratégia para melhorar a legibilidade da saída, especialmente em ambientes de desenvolvimento interativo, onde os warnings podem poluir a interface do usuário.
+
+    Utilização de Validação Cruzada e Grid Search:
+        A escolha de utilizar validação cruzada com 5 dobras e um processo de busca em grade (GridSearchCV) para otimização dos hiperparâmetros do modelo MLP demonstra um rigor metodológico na avaliação do desempenho dos algoritmos. Essas técnicas são amplamente reconhecidas na comunidade de aprendizado de máquina por sua capacidade de mitigar o viés de avaliação e encontrar configurações ótimas de modelos, respectivamente.
+
+    Tratamento de Exceções na DMC:
+        O código inclui um bloco try-except para lidar com possíveis exceções que podem ocorrer durante o treinamento do modelo DMC (Classificação Discriminante Quadrática). Essa abordagem defensiva é uma prática recomendada para garantir a robustez do código, especialmente ao lidar com algoritmos sensíveis a determinadas condições dos dados.
+
+    Menu Interativo para Visualização de Resultados:
+        A implementação de um menu interativo permite uma experiência de usuário mais dinâmica e personalizada. Isso oferece flexibilidade ao usuário final para explorar os resultados de maneira intuitiva, selecionando o tipo de gráfico desejado (barras ou linhas) de acordo com suas preferências.
+
+    Tempo de Execução e Data Atual:
+        O código finaliza exibindo o tempo de execução e a data atual da análise. Essas informações adicionais não apenas fornecem contexto sobre a duração da execução do código, mas também contribuem para a rastreabilidade e replicabilidade dos resultados, aspectos fundamentais em pesquisas científicas e experimentos computacionais.
+
+Ao destacar essas curiosidades, o código revela não apenas uma abordagem técnica sólida na análise de desempenho de algoritmos de aprendizado de máquina, mas também reflete preocupações práticas e metodológicas importantes no desenvolvimento de aplicações de ciência de dados.
