@@ -1,0 +1,28 @@
+vou fornecer uma breve revisão bibliográfica sobre os algoritmos utilizados no seu projeto: KNN (K-Nearest Neighbors), DMC (Quadratic Discriminant Analysis) e MLP (Multilayer Perceptron).
+
+    KNN (K-Nearest Neighbors):
+    O algoritmo KNN é um método de classificação supervisionada que utiliza a proximidade dos pontos de dados para determinar a classe de um novo ponto de dados. Ele pertence à família de algoritmos de aprendizado baseado em instância, onde as decisões são feitas com base na semelhança entre instâncias de treinamento e o novo exemplo a ser classificado. O KNN calcula a classe de um ponto de dados observando os k vizinhos mais próximos e atribuindo a classe mais frequente entre eles. Seu principal parâmetro é o número de vizinhos (k) a serem considerados.
+
+Referências:
+
+    Hastie, T., Tibshirani, R., & Friedman, J. (2009). The Elements of Statistical Learning: Data Mining, Inference, and Prediction. Springer.
+    Altman, N. S. (1992). An introduction to kernel and nearest-neighbor nonparametric regression. The American Statistician, 46(3), 175-185.
+
+    DMC (Quadratic Discriminant Analysis):
+    O DMC é um método de classificação supervisionada que modela a distribuição de probabilidade das classes usando funções quadráticas. Ele assume que as classes têm diferentes matrizes de covariância e, portanto, estima essas matrizes separadamente para cada classe. Ao contrário do KNN, que é um método de aprendizado baseado em instância, o DMC é um método de aprendizado baseado em modelo, pois estima os parâmetros do modelo com base nos dados de treinamento.
+
+Referências:
+
+    Hastie, T., Tibshirani, R., & Friedman, J. (2009). The Elements of Statistical Learning: Data Mining, Inference, and Prediction. Springer.
+    MacKay, D. J. (2003). Information theory, inference and learning algorithms. Cambridge university press.
+
+    MLP (Multilayer Perceptron):
+    O MLP é um tipo de rede neural artificial composta por múltiplas camadas de neurônios, incluindo uma camada de entrada, uma ou mais camadas ocultas e uma camada de saída. Cada neurônio em uma camada está conectado a todos os neurônios da camada seguinte. O MLP é capaz de aprender relações complexas nos dados e é amplamente utilizado em problemas de classificação e regressão.
+
+Referências:
+
+    Bishop, C. M. (1995). Neural networks for pattern recognition. Oxford university press.
+    Haykin, S. (1999). Neural networks: A comprehensive foundation (Vol. 2). Prentice hall.
+
+Essas referências fornecem uma base sólida para entender os fundamentos teóricos e as aplicações práticas dos algoritmos KNN, DMC e MLP. Recomendo a leitura desses materiais para uma compreensão mais aprofundada.
+ChatGPT can make mistakes. Consider checking important information.
